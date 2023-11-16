@@ -17,7 +17,7 @@
     height: 50px;
 }
 
-#right-top div {
+#right-top {
     display: flex;
     align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
 }
@@ -33,4 +33,45 @@
 
 .price {
     font-weight: bold;
+}
+
+#middle-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#middle-top label,
+#middle-top select,
+#middle-top input,
+#middle-top button {
+    margin-right: 10px;
+}
+
+#middle .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#middle .itemlist {
+    margin-right: 10px;
+}
+
+#profilename {
+    font-family: 'Do Hyeon', cursive;
+    font-size: 35px; /* 폰트 크기 조절 */
+    font-weight: bold; /* 폰트 굵기 조절 */
+    color: #333; /* 폰트 색상 조절 */
+}
+
+#notification {
+    width: 40px;
+    height: 40px;
+}
+
+#text {
+    font-family: 'Do Hyeon', cursive;
+    font-size: 20px; /* 폰트 크기 조절 */
+    margin: 10px;
 }

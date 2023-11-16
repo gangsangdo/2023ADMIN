@@ -6,20 +6,19 @@
         <title>상품 검색 화면</title>
         <!-- Google Material Icons 추가 -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="itemFind.css">
     </head>
     <body>
         <div id="top">
             <div id="left-top">
-                잠만보<img id="profileimage" src="profileimage.jpg" alt="프로필 사진">
+                <p id="profilename">메타모옹</p>
+                <img id="profileimage" src="profileimage.jpg" alt="프로필 사진">
             </div>
             <div id="right-top">
-                <div>
-                    <!-- Material Icons로 알림 아이콘 추가 -->
-                    <i class="material-icons">notifications</i>
-                    <button>로그아웃</button>
-                    <button>마이페이지</button>
-                </div>
+                <img id="notification" src="bell.jpg" alt="알림">
+                <p id="text">로그아웃</p>
+                <p id="text">마이페이지</p>
             </div>
         </div>
         <div id="middle-top">
@@ -35,7 +34,7 @@
                 <button>게시글 작성</button>
             </div>
         </div>
-        <div class="row">
+        <div id="middle">
             <!-- 여러 개의 게시물을 동적으로 추가할 수 있습니다. -->
             <div class="row">
                 <div class="itemlist">
