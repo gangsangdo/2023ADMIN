@@ -21,15 +21,32 @@
         <div class="row">
             <!-- 왼쪽 영역 -->
             <div id="left" class="col-sm-3">
-                <div class="row" id="left-row">
-                    <!-- 왼쪽 상단 정보 -->
-                    <div id="left-p">
-                        <p id="profilename">메타모옹</p>
-                        <p id="activearea">활동지역 : 대전</p>
+                <div class="column">
+                    <div class="row" id="left-row">
+                        <div id="left-p">
+                            <p id="profilename">메타모옹</p>
+                            <p id="activearea">활동지역 : 대전</p>
+                        </div>
+                        <div id="left-img">
+                            <img id="profileimage" src="image/profileimage.jpg" alt="프로필 사진">
+                        </div>
                     </div>
-                    <!-- 프로필 이미지 -->
-                    <div id="left-img">
-                        <img id="profileimage" src="image/profileimage.jpg" alt="프로필 사진">
+                    <div id="keyword">
+                        <hr class="horizontal-line">
+                        <div class="row" id="left-row">
+                            <div id="p_word" class="col-sm-6">
+                                <p class="keytext">관심 키워드</p>
+                            </div>
+                            <div id="button" class="col-sm-6">
+                                <button class="add-button" onclick="handleAddButtonClick()">추가</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="keywordresult">
+                        <p class="result-text">#냉장고</p>
+                        <p class="result-text">#TV</p>
+                        <p class="result-text">#스타일러</p>
+                        <p class="result-text">#청소기</p>
                     </div>
                 </div>
             </div>
@@ -47,15 +64,24 @@
                     </div>
                     <!-- 오른쪽 하단 영역 -->
                     <div id="right-bottom">
-                        <p>이야호</p>
+                        <p id="blackalram">  알림</p>
+                        <ul>
+                            <div>
+                                <li>'냉장고'키워드 관련 게시글이 올라왔어요</li>
+                                <p>5시간 전</p>
+                            </div>
+                            <div>
+                                <li>'스타일러'키워드 관련 게시글이 올라왔어요</li>
+                                <p>27일 전</p>
+                            </div>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- 사용자 지정 JavaScript 연결 -->
-    <script src="itemFind.js"></script>
+      
+    <script src="alram.js"></script>
 </body>
 
 </html>

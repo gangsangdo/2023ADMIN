@@ -25,7 +25,7 @@
 #left-img {
     width: 100px;
     display: flex; /* 추가: 내부 내용을 가로 정렬하기 위해 */
-    justify-content: flex-end; /* 추가: 내부 내용을 오른쪽 정렬하기 위해 */
+    /* justify-content: flex-end; 추가: 내부 내용을 오른쪽 정렬하기 위해 */
 }
 
 /* 프로필 사진 스타일 */
@@ -42,6 +42,7 @@
     align-items: center;
     /* 요소들을 수직으로 가운데 정렬합니다. */
     justify-content: flex-end;
+    margin-bottom: 100px;
 }
 
 /* 버튼과 아이콘 간격 조절 */
@@ -82,24 +83,78 @@
     margin: 10px;
 }
 
-#left,
-#right {
-    border: 1px solid seagreen;
+.keytext {
+    font-family: 'Do Hyeon', cursive;
+    font-size: 20px;
+    text-align: right;
 }
 
 #right-top,
 #right-bottom {
     width: 100%;
-    border: 1px solid red;
-}
-
-#left-p,
-#left-img {
-    border: 1px solid yellowgreen;
 }
 
 .horizontal-line {
-    width: 300px;
+    width: 260px;
     border-top: 1px solid #333; /* 수평 구분선의 스타일 지정 */
     margin: 10px 0; /* 여백 조절 */
+}
+
+#keyword {
+    justify-content: flex-end;
+}
+
+.add-button {
+    background-color: white;
+    padding: 5px;
+    width: 120px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Do Hyeon', cursive;
+}
+
+.result-text {
+    font-family: 'Do Hyeon', cursive;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#blackalram {
+    background-color: #333;
+    color: white;
+    height: 30px;
+    padding: 2px;
+    padding-left: 10px;
+    font-family: 'Do Hyeon', cursive;
+    font-size: 20px;
+}
+
+ul li {
+    list-style-type: none; /* li의 기본 점을 없앱니다. */
+    position: relative;
+    padding-left: 20px; /* li 내용과 점 사이의 간격을 조절합니다. */
+    font-family: 'Do Hyeon', cursive;
+    font-size: 20px;
+    display: inline-block;
+    width: 950px;
+}
+
+ul li::before {
+    content: "•"; /* 점의 내용을 설정합니다. */
+    color: red; /* 점의 색상을 빨간색으로 지정합니다. */
+    font-size: 22px; /* 점의 크기를 조절합니다. */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px; /* 점과 li 내용 사이의 간격을 조절합니다. */
+}
+
+ul p {
+    display: inline-block; /* p를 인라인 블록으로 설정하여 li 옆으로 이동시킵니다. */
+    margin-left: 10px; /* p와 li 사이의 간격을 조절합니다. */
+    font-family: 'Do Hyeon', cursive;
+    text-align: right;
+    width: 100px;
 }
