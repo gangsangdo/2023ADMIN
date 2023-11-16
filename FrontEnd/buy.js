@@ -1,21 +1,17 @@
+// 이벤트 리스너를 등록하고, DOM이 완전히 로드된 후에 실행되는 코드
 document.addEventListener('DOMContentLoaded', function () {
-    // DOM이 완전히 로드된 후에 실행되는 코드
 
-    // 알림 이미지를 클릭하면 alarm.html로 이동
+    // 알림 이미지 클릭 시 alarm.html로 이동
     var notificationImage = document.getElementById('notification');
 
     if (notificationImage) {
         notificationImage.addEventListener('click', function () {
             // alarm.html로 이동
-            window.location.href = 'alram.html';
+            window.location.href = 'alarm.html';
         });
     }
-});
 
-document.addEventListener('DOMContentLoaded', function () {
-    // DOM이 완전히 로드된 후에 실행되는 코드
-
-    // 로그아웃 텍스트를 클릭하면 login.html로 이동
+    // 로그아웃 텍스트 클릭 시 login.html로 이동
     var logoutText = document.getElementById('logout');
 
     if (logoutText) {
@@ -24,12 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
             window.location.href = 'login.html';
         });
     }
-});
 
-document.addEventListener('DOMContentLoaded', function () {
-    // DOM이 완전히 로드된 후에 실행되는 코드
-
-    // OK 버튼을 클릭하면 itemFind.html로 이동
+    // OK 버튼 클릭 시 itemFind.html로 이동
     var okBtn = document.getElementById('OkBtn');
 
     if (okBtn) {

@@ -17,12 +17,14 @@
 }
 
 /* 텍스트 스타일 */
-#text, #logout {
+#text,
+#logout {
     font-family: 'Do Hyeon', cursive;
     font-size: 20px; /* 폰트 크기 조절 */
     margin: 10px;
 }
 
+/* 중단 영역 스타일 */
 #middle {
     margin-top: 70px;
     width: 100%;
@@ -54,18 +56,6 @@
     align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
     border-bottom: 2px solid gray;
     font-family: 'Do Hyeon', cursive;
-}
-
-/* 이미지 스타일 */
-#userimage {
-    width: 50px;
-    height: 50px;
-}
-
-/* inleft 스타일 */
-#inleft {
-    display: flex;
-    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
 }
 
 /* 사용자 프로필 이미지 스타일 */
@@ -177,7 +167,8 @@
 }
 
 /* right-bottom 스타일 */
-#right-bottom, #write {
+#right-bottom,
+#write {
     border: 2px solid black;
     border-radius: 10px;
     margin-top: auto; /* 나머지 공간을 최대한 아래로 밀어줍니다. */
@@ -188,7 +179,13 @@
     text-align: center;
 }
 
-#price, #detail, #inright, #buy, #inter, #write {
+/* 추가 스타일 */
+#price,
+#detail,
+#inright,
+#buy,
+#inter,
+#write {
     font-family: 'Do Hyeon', cursive;
 }
 
@@ -196,7 +193,8 @@
     font-weight: bold;
 }
 
-#buy, #inter {
+#buy,
+#inter {
     padding-left: 10px;
     padding-right: 10px;
     border: 2px solid black;
