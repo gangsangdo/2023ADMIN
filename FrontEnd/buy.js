@@ -25,3 +25,17 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    // DOM이 완전히 로드된 후에 실행되는 코드
+
+    // OK 버튼을 클릭하면 itemFind.html로 이동
+    var okBtn = document.getElementById('OkBtn');
+
+    if (okBtn) {
+        okBtn.addEventListener('click', function () {
+            // itemFind.html로 이동
+            window.location.href = 'itemFind.html';
+        });
+    }
+});
