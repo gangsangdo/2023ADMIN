@@ -1,25 +1,29 @@
+/* 모든 div 요소를 가운데 정렬합니다. */
 div {
     text-align: center;
 }
 
+/* 모든 p 요소에 대한 스타일 설정 */
 p {
-    font-family: Do Hyeon;
-    font-size: 40px;
-    padding-top: 60px;
+    font-family: 'Do Hyeon', cursive; /* 'Do Hyeon' 글꼴을 사용합니다. */
+    font-size: 40px; /* 폰트 크기를 40px로 지정합니다. */
+    padding-top: 60px; /* 위쪽 여백을 60px로 설정합니다. */
 }
 
+/* 특정 ID를 가진 요소들에 대한 공통 스타일 설정 */
 #password,
 #id {
-    font-family: Do Hyeon;
-    border: none;
-    border-bottom: 2px solid gray;
-    font-size: 20px;
-    margin-bottom: 20px;
-    width: 300px;
+    font-family: 'Do Hyeon', cursive; /* 'Do Hyeon' 글꼴을 사용합니다. */
+    border: none; /* 테두리를 없앱니다. */
+    border-bottom: 2px solid gray; /* 아래쪽 테두리를 2px 두께의 회색으로 지정합니다. */
+    font-size: 20px; /* 폰트 크기를 20px로 지정합니다. */
+    margin-bottom: 20px; /* 아래쪽 여백을 20px로 설정합니다. */
+    width: 300px; /* 너비를 300px로 고정합니다. */
 }
 
+/* 특정 ID를 가진 버튼에 대한 스타일 설정 */
 #ok {
-    font-weight: bold;
-    border: 4px solid black;
-    font-size: 20px;
+    font-weight: bold; /* 글자 두께를 굵게 설정합니다. */
+    border: 4px solid black; /* 테두리를 4px 두께의 검은색으로 지정합니다. */
+    font-size: 20px; /* 폰트 크기를 20px로 지정합니다. */
 }

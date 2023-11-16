@@ -1,0 +1,202 @@
+/* 오른쪽 상단 영역 스타일 */
+#right-top {
+    display: flex;
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+    justify-content: flex-end; /* 요소들을 오른쪽으로 정렬합니다. */
+}
+
+/* 버튼과 아이콘 간격 조절 */
+#right-top img {
+    margin-left: 10px; /* 아이콘과 텍스트 사이의 간격을 조절합니다. */
+}
+
+/* 알림 아이콘 스타일 */
+#notification {
+    width: 40px;
+    height: 40px;
+}
+
+/* 텍스트 스타일 */
+#text,
+#logout {
+    font-family: 'Do Hyeon', cursive;
+    font-size: 20px; /* 폰트 크기 조절 */
+    margin: 10px;
+}
+
+/* 중단 영역 스타일 */
+#middle {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+}
+
+/* 컬럼 스타일 */
+.column {
+    flex: 1; /* 동일한 크기로 나눠 가짐 */
+}
+
+/* 이미지 섹션 스타일 */
+#imageSection {
+    display: flex;
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+}
+
+/* 화살표 버튼 스타일 */
+.moveBtn {
+    font-family: 'Do Hyeon', cursive;
+    font-size: 24px;
+    margin: 0 10px; /* 좌우 간격 조절 */
+}
+
+/* userinfo 스타일 */
+#userinfo {
+    display: flex;
+    justify-content: space-between; /* 좌우로 최대한 간격을 벌립니다. */
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+    border-bottom: 2px solid gray;
+    font-family: 'Do Hyeon', cursive;
+}
+
+/* 사용자 프로필 이미지 스타일 */
+#userimage {
+    width: 50px; /* 이미지 크기 조절 */
+    height: 50px;
+    border-radius: 50%; /* 원형 모양으로 이미지를 만듭니다. */
+    margin-right: 10px; /* 이미지와 텍스트 사이의 간격을 조절합니다. */
+}
+
+/* 사용자 이름 텍스트 스타일 */
+#username {
+    font-family: 'Do Hyeon', cursive;
+    font-size: 20px; /* 폰트 크기 조절 */
+    margin: 0; /* 기본 마진 제거 */
+}
+
+/* inright 스타일 */
+#inright {
+    display: flex;
+    gap: 10px; /* 요소들 사이의 간격을 조절합니다. */
+}
+
+/* 버튼 스타일 */
+#inright input[type="button"] {
+    background-color: white;
+    border-radius: 5px; /* 테두리를 둥글게 만들기 위한 반지름 값을 조절합니다. */
+    border: 1px solid black; /* 테두리 스타일 지정 */
+    padding: 5px 10px; /* 내부 여백 설정 */
+    cursor: pointer; /* 포인터 모양으로 변경 */
+}
+
+/* itemleft 스타일 */
+#itemleft {
+    display: flex;
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+}
+
+/* itemright 스타일 */
+#itemright {
+    display: flex;
+    gap: 10px; /* 요소들 사이의 간격을 조절합니다. */
+}
+
+#itemimage {
+    width: 100%;
+    height: 300px;
+}
+
+/* iteminfo 스타일 */
+#iteminfo {
+    display: flex;
+    justify-content: space-between; /* 좌우로 최대한 간격을 벌립니다. */
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+    font-family: 'Do Hyeon', cursive;
+}
+
+.comment {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+.commentimage {
+    width: 60px;
+    height: 60px;
+}
+
+/* incom 스타일 */
+.incom {
+    display: flex;
+    flex-direction: column; /* 요소들을 세로로 나열합니다. */
+    margin-bottom: 15px; /* 하단 여백을 조절합니다. */
+}
+
+/* incomment 스타일 */
+#incomment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Do Hyeon', cursive;
+}
+
+/* commentname 스타일 */
+#commentname {
+    margin: 0; /* 기본 마진 제거 */
+    width: 100px;
+}
+
+/* date 스타일 */
+#date {
+    margin: 0; /* 기본 마진 제거 */
+    width: 300px;
+    text-align: right;
+}
+
+/* context 스타일 */
+.context {
+    text-align: left; /* 텍스트를 왼쪽 정렬합니다. */
+    margin-top: 8px; /* 위쪽 여백을 조절합니다. */
+    font-family: 'Do Hyeon', cursive;
+}
+
+/* right 스타일 */
+#right {
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 나열합니다. */
+    justify-content: space-between; /* 세로로 최대한 간격을 벌립니다. */
+}
+
+/* right-bottom 스타일 */
+#right-bottom,
+#write {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: auto; /* 나머지 공간을 최대한 아래로 밀어줍니다. */
+    margin-left: 30px;
+    width: 80%;
+    background-color: white;
+    font-family: 'Do Hyeon', cursive;
+    text-align: center;
+}
+
+/* 추가 스타일 */
+#price,
+#detail,
+#inright,
+#buy,
+#inter,
+#write {
+    font-family: 'Do Hyeon', cursive;
+}
+
+#price {
+    font-weight: bold;
+}
+
+#buy,
+#inter {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
