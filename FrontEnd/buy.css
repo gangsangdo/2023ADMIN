@@ -1,0 +1,24 @@
+/* 오른쪽 상단 영역 스타일 */
+#right-top {
+    display: flex;
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+    justify-content: flex-end; /* 요소들을 오른쪽으로 정렬합니다. */
+}
+
+/* 버튼과 아이콘 간격 조절 */
+#right-top img {
+    margin-left: 10px; /* 아이콘과 텍스트 사이의 간격을 조절합니다. */
+}
+
+/* 알림 아이콘 스타일 */
+#notification {
+    width: 40px;
+    height: 40px;
+}
+
+/* 텍스트 스타일 */
+#text {
+    font-family: 'Do Hyeon', cursive;
+    font-size: 20px; /* 폰트 크기 조절 */
+    margin: 10px;
+}
