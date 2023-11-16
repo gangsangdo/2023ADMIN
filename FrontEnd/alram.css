@@ -1,0 +1,105 @@
+/* itemFind.css */
+
+.row {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/* 왼쪽 상단 영역 스타일*/
+#left {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+#left-row {
+    justify-content: flex-end;
+}
+
+/* left-p 스타일 */
+#left-p {
+    text-align: right;
+    width: 150px;
+}
+
+#left-img {
+    width: 100px;
+    display: flex; /* 추가: 내부 내용을 가로 정렬하기 위해 */
+    justify-content: flex-end; /* 추가: 내부 내용을 오른쪽 정렬하기 위해 */
+}
+
+/* 프로필 사진 스타일 */
+#left-img img {
+    margin-left: 10px;
+    /* 프로필 사진과 텍스트 사이의 간격을 조절합니다. */
+    width: 50px;
+    height: 50px;
+}
+
+/* 오른쪽 상단 영역 스타일 */
+#right-top {
+    display: flex;
+    align-items: center;
+    /* 요소들을 수직으로 가운데 정렬합니다. */
+    justify-content: flex-end;
+}
+
+/* 버튼과 아이콘 간격 조절 */
+#right-top img {
+    margin-right: 10px;
+}
+
+/* 프로필 이름 스타일 */
+#profilename {
+    font-family: 'Do Hyeon', cursive;
+    font-size: 35px;
+    /* 폰트 크기 조절 */
+    font-weight: bold;
+    /* 폰트 굵기 조절 */
+    color: #333;
+    /* 폰트 색상 조절 */
+    margin: 0px;
+}
+
+#activearea {
+    font-family: 'Do Hyeon', cursive;
+    font-size: 20px;
+    color: #333;
+    margin: 0px;
+}
+
+/* 알림 아이콘 스타일 */
+#notification {
+    width: 40px;
+    height: 40px;
+}
+
+/* 텍스트 스타일 */
+.text {
+    font-family: 'Do Hyeon', cursive;
+    font-size: 20px;
+    /* 폰트 크기 조절 */
+    margin: 10px;
+}
+
+#left,
+#right {
+    border: 1px solid seagreen;
+}
+
+#right-top,
+#right-bottom {
+    width: 100%;
+    border: 1px solid red;
+}
+
+#left-p,
+#left-img {
+    border: 1px solid yellowgreen;
+}
+
+.horizontal-line {
+    width: 300px;
+    border-top: 1px solid #333; /* 수평 구분선의 스타일 지정 */
+    margin: 10px 0; /* 여백 조절 */
+}

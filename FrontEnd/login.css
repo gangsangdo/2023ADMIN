@@ -1,0 +1,25 @@
+div {
+    text-align: center;
+}
+
+p {
+    font-family: Do Hyeon;
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+#password,
+#id {
+    font-family: Do Hyeon;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+#ok {
+    font-weight: bold;
+    border: 4px solid black;
+    font-size: 20px;
+}
