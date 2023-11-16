@@ -25,3 +25,12 @@
 #right-top img {
     margin-right: 10px; /* 각 버튼과 아이콘 사이의 간격을 조절합니다. */
 }
+
+.items {
+    width: 80px;
+    height: 80px;
+}
+
+.price {
+    font-weight: bold;
+}
