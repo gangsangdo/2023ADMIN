@@ -52,18 +52,13 @@
     display: flex;
     justify-content: space-between; /* 좌우로 최대한 간격을 벌립니다. */
     align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+    border-bottom: 2px solid gray;
 }
 
 /* 이미지 스타일 */
 #userimage {
     width: 50px;
     height: 50px;
-}
-
-/* inleft 스타일 */
-#inleft {
-    display: flex;
-    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
 }
 
 /* inleft 스타일 */
@@ -100,4 +95,23 @@
     border: 1px solid black; /* 테두리 스타일 지정 */
     padding: 5px 10px; /* 내부 여백 설정 */
     cursor: pointer; /* 포인터 모양으로 변경 */
+}
+
+/* itemleft 스타일 */
+#itemleft {
+    display: flex;
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+}
+
+/* itemright 스타일 */
+#itemright {
+    display: flex;
+    gap: 10px; /* 요소들 사이의 간격을 조절합니다. */
+}
+
+/* iteminfo 스타일 */
+#iteminfo {
+    display: flex;
+    justify-content: space-between; /* 좌우로 최대한 간격을 벌립니다. */
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
 }
