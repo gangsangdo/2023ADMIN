@@ -152,11 +152,14 @@
 /* commentname 스타일 */
 #commentname {
     margin: 0; /* 기본 마진 제거 */
+    width: 100px;
 }
 
 /* date 스타일 */
 #date {
     margin: 0; /* 기본 마진 제거 */
+    width: 300px;
+    text-align: right;
 }
 
 /* context 스타일 */
