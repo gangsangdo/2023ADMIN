@@ -13,3 +13,10 @@
 개선 : ~
 소소 : ~
 ```
+
+### How to Make Branch
+```bash
+본인 issue number
+
+ex) 김은수의 경우 지금 issue2이므로 "issue2"라는 branch 생성
+```
