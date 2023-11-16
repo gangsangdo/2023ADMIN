@@ -1,4 +1,27 @@
-#profileimage {
-    width: 20px;
-    height: 20px;
+/* itemFind.css */
+#top {
+    display: flex;
+    justify-content: space-between; /* 좌우로 최대한 간격을 벌립니다. */
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+    padding: 10px; /* 필요에 따라 패딩을 조절할 수 있습니다. */
+}
+
+#left-top {
+    display: flex;
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+}
+
+#left-top img {
+    margin-left: 10px; /* 프로필 사진과 텍스트 사이의 간격을 조절합니다. */
+    width: 50px;
+    height: 50px;
+}
+
+#right-top div {
+    display: flex;
+    align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
+}
+
+#right-top img {
+    margin-right: 10px; /* 각 버튼과 아이콘 사이의 간격을 조절합니다. */
 }
