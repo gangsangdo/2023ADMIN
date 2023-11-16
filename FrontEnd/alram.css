@@ -1,5 +1,6 @@
 /* itemFind.css */
 
+/* 전체적인 레이아웃 스타일 */
 .row {
     margin-top: 10px;
     padding-top: 10px;
@@ -130,6 +131,7 @@
     font-size: 20px;
 }
 
+/* 목록 스타일 */
 ul li {
     list-style-type: none; /* li의 기본 점을 없앱니다. */
     position: relative;
