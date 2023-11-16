@@ -1,4 +1,6 @@
 /* itemFind.css */
+
+/* 상단 영역 스타일 */
 #top {
     display: flex;
     justify-content: space-between; /* 좌우로 최대한 간격을 벌립니다. */
@@ -6,36 +8,43 @@
     padding: 10px; /* 필요에 따라 패딩을 조절할 수 있습니다. */
 }
 
+/* 왼쪽 상단 영역 스타일 */
 #left-top {
     display: flex;
     align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
 }
 
+/* 프로필 사진 스타일 */
 #left-top img {
     margin-left: 10px; /* 프로필 사진과 텍스트 사이의 간격을 조절합니다. */
     width: 50px;
     height: 50px;
 }
 
+/* 오른쪽 상단 영역 스타일 */
 #right-top {
     display: flex;
     align-items: center; /* 요소들을 수직으로 가운데 정렬합니다. */
 }
 
+/* 버튼과 아이콘 간격 조절 */
 #right-top img {
-    margin-right: 10px; /* 각 버튼과 아이콘 사이의 간격을 조절합니다. */
+    margin-right: 10px;
 }
 
+/* 아이템 이미지 스타일 */
 .items {
     width: 160px;
     height: 160px;
     border-radius: 15px;
 }
 
+/* 가격 텍스트 스타일 */
 .price {
     font-weight: bold;
 }
 
+/* 중간 영역 스타일 */
 #middle {
     align-items: center;
     align-self: center;
@@ -43,22 +52,26 @@
     flex-direction: column;
 }
 
+/* 아이템 목록 행 스타일 */
 #middle .row .itemlist {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
+/* 아이템 이미지 간격 조절 */
 #middle .row .itemlist img {
-    margin-bottom: 5px; /* 아래쪽 간격을 조절합니다. */
+    margin-bottom: 5px;
 }
 
+/* 아이템 텍스트 간격 조절 */
 #middle .row .itemlist p {
-    margin: 2px 0; /* 위아래 간격을 조절합니다. */
+    margin: 2px 0;
     text-align: left;
     font-family: 'Do Hyeon', cursive;
 }
 
+/* 중간 상단 영역 스타일 */
 #middle-top {
     display: flex;
     justify-content: space-between;
@@ -66,6 +79,7 @@
     padding: 10px;
 }
 
+/* 중간 상단 요소들 스타일 */
 #middle-top label,
 #middle-top select,
 #middle-top input,
@@ -74,16 +88,19 @@
     font-family: 'Do Hyeon', cursive;
 }
 
+/* 아이템 목록 행 간격 조절 */
 #middle .row {
     display: flex;
     justify-content: space-between;
 }
 
+/* 아이템 목록 요소 간 간격 조절 */
 .itemlist {
-    margin: 10px; /* 오른쪽 간격을 조절합니다. */
+    margin: 10px;
     padding: 0%;
 }
 
+/* 프로필 이름 스타일 */
 #profilename {
     font-family: 'Do Hyeon', cursive;
     font-size: 35px; /* 폰트 크기 조절 */
@@ -91,26 +108,31 @@
     color: #333; /* 폰트 색상 조절 */
 }
 
+/* 알림 아이콘 스타일 */
 #notification {
     width: 40px;
     height: 40px;
 }
 
+/* 텍스트 스타일 */
 #text {
     font-family: 'Do Hyeon', cursive;
     font-size: 20px; /* 폰트 크기 조절 */
     margin: 10px;
 }
 
+/* 검색 이미지 스타일 */
 #searchimage {
     width: 40px;
     height: 40px;
 }
 
+/* 지역 선택 버튼 스타일 */
 #chooseLocal {
     width: 150px;
 }
 
+/* 입력창 스타일 */
 #chooseLocal, #searchName {
     background-color: white;
     border: none; /* 기본적인 테두리 제거 */
@@ -121,6 +143,7 @@
     font-style: 10px black;
 }
 
+/* 최소 가격 입력창 스타일 */
 #minPrice {
     border: none; /* 기본적인 테두리 제거 */
     border-bottom: 1px solid black; /* 위에 1px 테두리 추가 */
@@ -130,6 +153,7 @@
     font-style: 10px black;
 }
 
+/* 최대 가격 입력창 스타일 */
 #maxPrice {
     border: none; /* 기본적인 테두리 제거 */
     border-bottom: 1px solid black; /* 위에 1px 테두리 추가 */
@@ -139,12 +163,14 @@
     font-style: 10px black;
 }
 
+/* 입력창 플레이스홀더 스타일 */
 #searchName::placeholder,
 #minPrice::placeholder,
 #maxPrice::placeholder {
     color: black; /* 원하는 색상으로 변경할 수 있습니다. */
 }
 
+/* 게시글 작성 버튼 스타일 */
 #writeBtn {
     background-color: white;
     border-radius: 30px; /* 테두리를 둥글게 만들기 위한 반지름 값을 조절할 수 있습니다. */
